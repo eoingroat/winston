@@ -6,7 +6,7 @@
 import * as NodeJSStream from "stream";
 
 import * as logform from 'logform';
-import * as Transport from 'winston-transport';
+import * as Transport from '@normed/winston-transport';
 
 import * as Config from './lib/winston/config/index';
 import * as Transports from './lib/winston/transports/index';
